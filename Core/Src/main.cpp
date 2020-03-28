@@ -21,7 +21,8 @@
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
 #include "stdio.h"
-#include "ReadBlueButtonClass.h"
+
+#include "CommonInterface/InputInterface/ButtonsInterface/BlueButtonObject/BlueButtonClass.h"
 
 
 /* Private includes ----------------------------------------------------------*/
@@ -98,7 +99,7 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
-  BlueButtonClass button = BlueButtonClass();
+  BlueButtonClass button = BlueButtonClass(B1_Pin, B1_GPIO_Port, GPIO_PIN_RESET);
 
   while (1)
   {

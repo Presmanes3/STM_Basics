@@ -10,7 +10,8 @@ RM := rm -rf
 -include sources.mk
 -include Drivers/STM32F1xx_HAL_Driver/Src/subdir.mk
 -include Core/Startup/subdir.mk
--include Core/Src/CustomLibraries/subdir.mk
+-include Core/Src/CommonInterface/InputInterface/ButtonsInterface/BlueButtonObject/subdir.mk
+-include Core/Src/CommonInterface/InputInterface/ButtonsInterface/subdir.mk
 -include Core/Src/subdir.mk
 -include subdir.mk
 -include objects.mk

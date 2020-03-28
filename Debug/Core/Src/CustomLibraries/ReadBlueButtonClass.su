@@ -1,4 +1,0 @@
-ReadBlueButtonClass.cpp:10:1:BlueButtonClass::BlueButtonClass()	16	static
-ReadBlueButtonClass.cpp:19:1:BlueButtonClass::~BlueButtonClass()	16	static
-ReadBlueButtonClass.cpp:19:1:virtual BlueButtonClass::~BlueButtonClass()	16	static
-ReadBlueButtonClass.cpp:23:6:bool BlueButtonClass::isPressed()	24	static

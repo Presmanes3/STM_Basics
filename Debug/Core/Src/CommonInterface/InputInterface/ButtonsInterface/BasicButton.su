@@ -1,0 +1,7 @@
+BasicButton.cpp:10:1:BasicButton::BasicButton(uint16_t, GPIO_TypeDef*, GPIO_PinState)	24	static
+BasicButton.cpp:16:6:virtual bool BasicButton::isPressed()	24	static
+BasicButton.cpp:39:6:virtual bool BasicButton::hasBeenPressed()	16	static
+BasicButton.cpp:43:10:uint32_t BasicButton::timesPressed()	16	static
+BasicButton.cpp:47:6:virtual void BasicButton::reset()	16	static
+BasicButton.cpp:54:6:void BasicButton::setActivationMethod(GPIO_PinState)	16	static
+BasicButton.cpp:58:15:GPIO_PinState BasicButton::getActivationMethod()	16	static
